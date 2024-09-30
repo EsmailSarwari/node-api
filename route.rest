@@ -20,16 +20,16 @@ Content-Type: application/json
 
 ###
 // delete one subscriber
-DELETE http://localhost:3000/subscribers/66faf5065ec678d79e1512c3
+DELETE http://localhost:3000/subscribers/66fb0383b420c10bc1ca64ac
 
 
 ###
 // udpate a subscriber
 
-PATCH  http://localhost:3000/subscribers/66faf4c465e2b679f5c51e9d
+PATCH  http://localhost:3000/subscribers/66faff32bc4f019d0ce35d45
 Content-Type: application/json
 
 {
-    "name": "update to new user 2",
-    "subscribedToChannel": "subscription updated"
+    "name": "update to new user 3",
+    "subscribedToChannel": "user 3 subscription updated "
 }
